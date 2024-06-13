@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import React from "react";
+import '@unocss/reset/tailwind.css';
+import 'uno.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
