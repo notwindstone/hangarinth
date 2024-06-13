@@ -1,14 +1,21 @@
-// uno.config.ts
 import {
     defineConfig,
     presetAttributify,
     presetIcons,
     presetUno,
-    presetWebFonts
 } from 'unocss';
 
 export default defineConfig({
     presets: [
-        presetUno(),
+        presetUno({
+            dark: 'media',
+        }),
+        presetAttributify(),
+        presetIcons({
+            extraProperties: {
+                'display': 'inline-block',
+                'vertical-align': 'middle',
+            },
+        }),
     ],
 });
