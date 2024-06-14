@@ -1,4 +1,16 @@
 import Image from "next/image";
+import HeaderLink from "@/components/Header/HeaderLink/HeaderLink";
+
+const links = [
+    {
+        "label": "Search",
+        "link": "/search",
+    },
+    {
+        "label": "About",
+        "link": "/about",
+    },
+];
 
 export default function Header() {
     return (
@@ -10,8 +22,16 @@ export default function Header() {
                         Hangarinth
                     </p>
                 </div>
-                <div className="flex">
-                    to be filled
+                <div className="flex gap-4">
+                    {
+                        links.map((link) => {
+                            return (
+                                <HeaderLink key={link.label} link={link.link}>
+                                    {link.label}
+                                </HeaderLink>
+                            );
+                        })
+                    }
                 </div>
             </div>
         </header>
