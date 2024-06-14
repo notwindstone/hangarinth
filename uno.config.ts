@@ -7,6 +7,10 @@ import {
 } from 'unocss';
 
 export default defineConfig({
+    rules: [
+        ['text-soft-blue', { color: "#7489ed" }],
+        ['bg-soft-blue', { background: "#7489ed" }],
+    ],
     presets: [
         presetUno({
             dark: 'media',
