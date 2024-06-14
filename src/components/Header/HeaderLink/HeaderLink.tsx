@@ -9,7 +9,7 @@ export default function HeaderLink({
     link?: string;
 }) {
     return (
-        <Link className="flex items-start" href={link ?? "/"}>
+        <Link className="flex items-start h-fit" href={link ?? "/"}>
             <p className="text-dark text-4.5 line-height-none">
                 {children}
             </p>
