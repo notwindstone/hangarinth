@@ -11,14 +11,17 @@
   "dependencies": {
     "next": "^15.0.0-rc.0",
     "react": "^19.0.0-rc-f3e09d6328-20240612",
-    "react-dom": "^19.0.0-rc-f3e09d6328-20240612",
-    "react-icons": "^5.2.1"
+    "react-dom": "^19.0.0-rc-f3e09d6328-20240612"
   },
   "devDependencies": {
+    "@iconify-json/fa6-brands": "^1.1.19",
+    "@iconify-json/tabler": "^1.1.113",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@unocss/preset-icons": "^0.61.0",
     "@unocss/webpack": "^0.61.0",
+    "add": "^2.0.6",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "eslint-plugin-react-refresh": "^0.4.7",
