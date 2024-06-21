@@ -13,6 +13,5 @@ export default defineNuxtConfig({
   unocss: {
     attributify: true,
     icons: true,
-    components: false,
   },
 })
