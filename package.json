@@ -1,33 +1,17 @@
 {
-  "name": "nextrinth",
-  "version": "0.1.0",
+  "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "next": "^15.0.0-rc.0",
-    "react": "^19.0.0-rc-f3e09d6328-20240612",
-    "react-dom": "^19.0.0-rc-f3e09d6328-20240612"
-  },
-  "devDependencies": {
-    "@iconify-json/fa6-brands": "^1.1.19",
-    "@iconify-json/tabler": "^1.1.113",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "@unocss/preset-icons": "^0.61.0",
-    "@unocss/webpack": "^0.61.0",
-    "add": "^2.0.6",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "postcss": "^8.4.38",
-    "typescript": "^5",
-    "typescript-eslint": "^7.13.0",
-    "unocss": "^0.61.0"
+    "nuxt": "^3.12.2",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3"
   }
 }
