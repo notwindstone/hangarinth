@@ -12,4 +12,9 @@ export default defineNuxtConfig({
   modules: [
     '@unocss/nuxt',
   ],
+  unocss: {
+    attributify: true,
+    icons: true,
+    components: false,
+  },
 })
