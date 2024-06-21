@@ -1,5 +1,10 @@
 <template>
-  <input type="text" @input="onInput(($event.currentTarget as HTMLInputElement).value)" />
+  <input
+      border="amber 1 solid"
+      type="text"
+      placeholder="Enter username"
+      @input="onInput(($event.currentTarget as HTMLInputElement).value)"
+  />
 </template>
 
 <script setup lang="ts">
