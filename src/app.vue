@@ -14,8 +14,8 @@
 </template>
 
 <style>
-@import '@unocss/reset/tailwind.css';
-@import '@unocss/reset/normalize.css';
+@import '../node_modules/@unocss/reset/tailwind.css';
+@import '../node_modules/@unocss/reset/normalize.css';
 div {
   font-family: Inter, sans-serif;
 }

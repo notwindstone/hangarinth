@@ -15,7 +15,7 @@ provide('searchInput', {
 </script>
 
 <template>
-  {{ console.log('update CustomComponent.vue', input) }}
+  {{ console.log('update CustomComponent.vue') }}
   <span class="bg-amber">
     <slot />
     <Search />
