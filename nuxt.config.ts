@@ -9,9 +9,7 @@ export default defineNuxtConfig({
       apiBase: '/api'
     }
   },
-  modules: [
-    '@unocss/nuxt',
-  ],
+  modules: ['@unocss/nuxt', "@nuxt/fonts"],
   unocss: {
     attributify: true,
     icons: true,

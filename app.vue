@@ -17,6 +17,9 @@
 <style>
 @import '@unocss/reset/tailwind.css';
 @import '@unocss/reset/normalize.css';
+div {
+  font-family: Inter, sans-serif;
+}
 </style>
 
 <script setup lang="ts">
