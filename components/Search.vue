@@ -1,16 +1,10 @@
 <script setup lang="ts">
-const counter = useState('counter', () => 0)
+const counter = useState('counter', () => '')
 </script>
 
 <template>
-  <input :placeholder="counter">
+  <input class="b-rounded b-amber" @input="counter = ($event.target as HTMLInputElement).value" />
   <div>
-    Counter: {{ counter }}
-    <button @click="counter++">
-      +
-    </button>
-    <button @click="counter--">
-      -
-    </button>
+    Input: {{ counter }}
   </div>
 </template>
